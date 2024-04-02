@@ -9,7 +9,9 @@ const getPurchaseById = (req, res)=>{
 }
 const updatePurchase = (req, res) => {
     const bk = {
+
       title: req.body.title,
+
       price: req.body.price,
      
     };
